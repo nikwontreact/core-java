@@ -1,0 +1,30 @@
+return_type method_name (parameters){code block}
+ every method is written inside a class
+ main() method is automatically called when we run programm ,it is the starting point of our programm, it is the first method that is called. 
+access modigfiers Public,Private,Protected, Default
+ Naming Convention 1)Pascal case , First case is always capital of a word ,Used with classes in java , 2) Camel case First letter is always small , is used with methods3)snake case
+Package is a container for classes
+
+
+18th march
+MAIN.JAVA     compiled by   JAVA       generates   MAIN.CLASS
+-source code  ----------->  COMPILER   -------->   -java bytecode -executable file.
+
+1)method wont run if its not called in the main method.
+
+~ACCESS MODIFIERS:-
+1)Public - the access level is everywhere.
+  -inside the class.
+  -outside the class.
+  -inside the package.
+  -outside the package.
+
+2)Private - the access level is only inside the class. 
+
+3)Static(NON-ACCESS MODIFIER)-you can access the fields/methods using the class name.
+- if you want to acces the method in main method then it should be static.as main() method is static
+ ex:- System.out 
+      -->out is a static field of system it cannot be accessed without classname. 
+
+
+~RETURN TYPES 
